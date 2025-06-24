@@ -2,6 +2,8 @@
 
 This project is a Node.js/Express web application that allows users to register, log in (locally or with Google), submit secrets, and view secrets. It demonstrates authentication, session management, and secure password storage.
 
+---
+
 ## APIs and Functionality
 
 ### Main Endpoints
@@ -24,6 +26,8 @@ This project is a Node.js/Express web application that allows users to register,
 - Google OAuth 2.0 authentication.
 - Session management with Passport.js.
 
+---
+
 ## Database
 
 - **Type:** PostgreSQL
@@ -41,6 +45,8 @@ This project is a Node.js/Express web application that allows users to register,
     ```
 - **Configuration:**
   - Database connection details are set in your environment variables or configuration file.
+ 
+---
 
 ## How to Run the Server
 
@@ -62,6 +68,8 @@ This project is a Node.js/Express web application that allows users to register,
 5. **Visit:**
    - [http://localhost:3000](http://localhost:3000)
 
+---
+
 ## How to Interact with the API
 
 - **Web Interface:**
@@ -80,6 +88,7 @@ This project is a Node.js/Express web application that allows users to register,
     ```bash
     curl -X POST http://localhost:3000/submit -d "secret=My secret" --cookie "connect.sid=YOUR_SESSION_COOKIE"
     ```
+---
 
 ## Notes
 
