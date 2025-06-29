@@ -1,4 +1,4 @@
-# Secrets Project
+# Secrets Project: 
 
 This project is a Node.js/Express web application that allows users to register, log in (locally or with Google), submit secrets, and view secrets. It demonstrates authentication, session management, and secure password storage.
 
