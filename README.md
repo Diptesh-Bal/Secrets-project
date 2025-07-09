@@ -48,6 +48,35 @@ This project is a Node.js/Express web application that allows users to register,
  
 ---
 
+## Folder Structure
+
+```
+Secrets-project/
+│
+├── css/
+│   └── styles.css
+├── views/
+│   ├── home.ejs
+│   ├── register.ejs
+│   ├── partials/
+│   │   ├── header.ejs
+│   │   └── footer.ejs
+├── index.js
+├── solution.js
+├── package.json
+├── solution-queries.sql
+├── README.md
+```
+
+- `css/`: Contains styling files.
+- `views/`: EJS templates for web pages and partials.
+- `index.js`, `solution.js`: Main server files.
+- `package.json`: Project dependencies.
+- `solution-queries.sql`: SQL migration/query file.
+- `README.md`: Project documentation.
+
+---
+
 ## How to Run the Server
 
 1. **Install dependencies:**
@@ -93,5 +122,3 @@ This project is a Node.js/Express web application that allows users to register,
 ## Notes
 
 - Make sure to configure your environment variables for database and Google OAuth.
-- The project uses Passport.js for authentication and session management.
-- Passwords are securely hashed with bcrypt before storage.
